@@ -1,0 +1,79 @@
+# ==========================================
+# Build directories and artifacts
+# ==========================================
+build/
+build-*/
+bin/
+lib/
+out/
+cmake-build-*/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# ==========================================
+# Qt / MOC / UIC / RCC generated files
+# ==========================================
+moc_*.cpp
+moc_*.h
+mocs_compilation.cpp
+ui_*.h
+qrc_*.cpp
+*.moc
+*.qrc.depends
+
+# Qt Creator user settings
+*.user
+*.user.*
+CMakeLists.txt.user
+
+# ==========================================
+# Compiled binaries & object files
+# ==========================================
+*.o
+*.obj
+*.so
+*.so.*
+*.a
+*.dylib
+*.dll
+*.exe
+
+# Executables generated in project
+OrderServer
+OrderClient
+
+# ==========================================
+# Database files
+# ==========================================
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+orders.db
+
+# ==========================================
+# IDE & Editor files
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.directory
+
+# ==========================================
+# OS-specific files
+# ==========================================
+.DS_Store
+Thumbs.db
